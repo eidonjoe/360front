@@ -32,6 +32,7 @@ a:hover {color:#FFFFFF;background-color: #19A7FB;}
 a.icon-a:link {color:#000;}
 a.icon-a:visited {color:#B0B2B3;}
 a.icon-a:hover {color:#FFFFFF;background-color: #1C2B34;}
+a.icon-circle-up:hover {color:#FFFFFF;}
 
 /*引入图标样式*/
 @font-face {
@@ -79,6 +80,13 @@ a.icon-a:hover {color:#FFFFFF;background-color: #1C2B34;}
 }
 .icon-wordpress:before {
 	content: "\eab6";
+}
+.icon-circle-up:before {
+	position: fixed;
+	right: 3px;
+	bottom: 20px;
+	color: #1C1A1A;
+	content: "\ea41";
 }
 /*清除浮动*/
 .clearfix:before,
@@ -259,4 +267,3 @@ a.icon-a:hover {color:#FFFFFF;background-color: #1C2B34;}
 	background-color: #3A5FCD;
 	display: block;
 }
-
