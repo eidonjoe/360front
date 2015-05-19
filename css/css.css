@@ -1,0 +1,289 @@
+html {
+	font-family: "Microsoft YaHei",Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #E0EEEE;
+	margin: 0px;
+}
+img {
+	width: auto\9;
+	height: inherit;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	display: block;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+li {
+	display: block;
+	list-style: none;
+	word-wrap :break-word;
+}
+.icon-a {
+	display: inline-block;
+}
+a.i:link {color:#4B8DC5;}
+a:visited {color:#4B8DC5;}
+a:hover {color:#FFFFFF;background-color: #19A7FB;}
+
+a.icon-a:link {color:#000;}
+a.icon-a:visited {color:#B0B2B3;}
+a.icon-a:hover {color:#FFFFFF;background-color: #1C2B34;}
+<<<<<<< HEAD
+a.icon-circle-up:hover {color:#FFFFFF;}
+=======
+>>>>>>> 0d7c54e594cba6c29fed17bf98792b23b088f7e3
+
+/*引入图标样式*/
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('../IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon {
+	font-family: 'IcoMoon-Free';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 2em;
+	text-transform: none;
+	line-height: 1;
+	
+	display: inline-block;
+	margin: auto 0.4em;
+	
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-github:before {
+	content: "\eab1";
+}
+.icon-phone:before {
+	content: "\e942";
+}
+.icon-envelop:before {
+	content: "\e945";
+}
+.icon-bubbles:before {
+	content: "\e96c";
+}
+.icon-wordpress:before {
+	content: "\eab6";
+}
+<<<<<<< HEAD
+.icon-circle-up:before {
+	position: fixed;
+	right: 3px;
+	bottom: 20px;
+	color: #1C1A1A;
+	content: "\ea41";
+}
+=======
+>>>>>>> 0d7c54e594cba6c29fed17bf98792b23b088f7e3
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+} /* IE < 8 */
+/*定义导航*/
+.nav {
+	background: linear-gradient(top,#000000,#676363);
+	background: -webkit-linear-gradient(top,#000000,#676363);
+	background: -o-linear-gradident(top,#000000,#676363);
+	background: -moz-linear-gradident(top,#000000,#676363);
+	background: -ms-linear-gradident(top,#000000,#676363);
+	width: 100%;
+	height: 40px;
+}
+/*定义主容器*/
+.container {
+	position: relative;
+	margin: 20px auto;
+	width: 95%;
+	height: auto;
+}
+/*左侧边栏*/
+.left-bar {
+	position: relative;
+	float: left;
+	width: 29%;
+	border-radius: 5px;
+}
+/*右侧边栏*/
+.right-bar{
+	position: relative;
+	float: right;
+	width: 69%;
+	background-color: white;
+	border-radius: 10px;
+}
+.left-nav {
+	margin: 10px auto;
+	border-bottom: #999 solid 1px;
+	overflow: hidden;
+
+}
+
+.left-bar .left-nav li {
+	text-align: center;
+	margin: 5px 0px;
+	padding: 0px auto;
+	line-height: 2em;
+}
+.item-left .item-text li{
+	text-align: left;
+	margin: 5px;
+	color:#999;
+}
+.item-right .item-text li{
+	text-align: right;
+	margin: 5px;
+	color:#999;
+}
+.item-left-title li{
+	text-indent: 20px;
+}
+.item-left-title h1{
+	line-height: 1.2em;
+  	color: #333;
+  	font-size: 1em;
+  	font-weight: 100;
+}
+.item-right-title li{
+	text-indent: 20px;
+}
+.item-right-title h1{
+	line-height: 1.2em;
+  	color: #333;
+  	font-size: 1em;
+  	font-weight: 100;
+}
+.person {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto;
+	border-radius:5px 5px 0 0;
+	background: linear-gradient(bottom,#EEEAEA,#D5D4D4);
+	background: -webkit-linear-gradient(bottom,#EEEAEA,#D5D4D4);
+	background: -o-linear-gradident(bottom,#000000,#676363);
+	background: -moz-linear-gradident(bottom,#000000,#676363);
+	background: -ms-linear-gradident(bottom,#000000,#676363);
+}
+.person-img {
+	float: right;
+	height: auto;
+	width: 15%;
+	margin: 10px 10px 15px 10px;
+}
+.person-content {
+	float: right;
+	height: auto;
+	width: 73%;
+	margin: 10px 10px 15px 10px;
+}
+.person h1 {
+	font-size: 1.5em;
+	font-family: Arial;
+	text-align: right;
+	margin-top: 5px;
+}
+.person li {
+	color:#4B8DC5;
+	text-align: right;
+}
+
+.item {
+	width: 100%;
+	position: relative;
+	padding-top: 10px;
+	overflow: hidden;
+	border-top:#CCCCCC solid 1px;
+}
+.item-text {
+	position: relative;
+	overflow: hidden;
+	margin: 10px auto;
+	background-color: #f7f7f7;
+	border:#D3D3D3 solid 1px;
+}
+.item-right {
+	float: right;
+	height: auto;
+	width: 85%;
+	margin: 10px 10px 15px 0px;
+}
+.item-right-title {
+	text-align: right;
+	height: auto;
+  	color: #666;
+  	line-height: 1.5em;
+  	font-size: 1em;
+  	letter-spacing: 1px;
+}
+.item-right-img {
+	float: right;
+	width: 8%;
+	margin: 5px;
+	border:#CCCCCC solid 1px;
+	display: inline-block;
+	margin: 10px 10px 15px 10px;
+}
+.item-left {
+	float: left;
+	height: auto;
+	width: 85%;
+	margin: 0px 10px 15px 10px;
+}
+.item-left-title {
+	text-align: left;
+	height: auto;
+  	color: #666;
+  	line-height: 1.5em;
+  	font-size: 1em;
+  	letter-spacing: 1px;
+}
+
+.item-left-img {
+	float: left;
+	width: 8%;
+	margin: 5px;
+	border:#CCCCCC solid 1px;
+	display: inline-block;
+	margin: 10px 10px 15px 10px;
+}
+.title-span {
+	font-size: 1.5em;
+	color:#FFFFFF;
+	background-color: #3A5FCD;
+	display: block;
+<<<<<<< HEAD
+}
+=======
+}
+
+>>>>>>> 0d7c54e594cba6c29fed17bf98792b23b088f7e3
